@@ -1,0 +1,85 @@
+@import url("./assets/css/header.css");
+@import url("./assets/css/hero.css");
+
+:root {
+  /* Cores */
+  --bg-primary: #fefef3;
+  --bg-secondary: #ea6c16;
+  --bg-third: #fff9e6;
+
+  /* Tipografia */
+  --font-Montserrat: "Montserrat", sans-serif;
+  --font-Poppins: "Poppins", sans-serif;
+
+  /* Tamanhos de fonte */
+  --font-size-s: 0.75rem;
+  --font-size-b: 1rem;
+  --font-size-bm: 1.25rem;
+  --font-size-m: 1.5rem;
+  --font-size-xm: 1.75rem;
+  --font-size-l: 2rem;
+  --font-size-xl: 2.5em;
+  --font-size-xxl: 3rem;
+  --font-size-xxxl: 4.5rem;
+
+  /* Altura da linhas */
+  --line-height: 120%;
+
+  /* Espaçamentos */
+  --padding-xs: 0.25rem;
+  --padding-s: 0.5rem;
+  --padding-m: 1rem;
+  --padding-l: 1.5rem;
+  --padding-xl: 2rem;
+  --padding-xxl: 2.5rem;
+  --padding-3xl: 3.75rem;
+  --padding-4xl: 4rem;
+  --padding-5xl: 4.75rem;
+
+  --margin-xs: 0.25rem;
+  --margin-s: 0.5rem;
+  --margin-m: 1rem;
+  --margin-l: 1.5rem;
+  --margin-xl: 2rem;
+  --margin-xxl: 2.5rem;
+  --margin-3xl: 3.75rem;
+  --margin-4xl: 4rem;
+  --margin-5xl: 4.75rem;
+
+  --gap-xs: 0.25rem;
+  --gap-s: 0.5rem;
+  --gap-m: 1rem;
+  --gap-l: 1.5rem;
+  --gap-xl: 2rem;
+  --gap-xxl: 2.5rem;
+  --gap-xxxl: 6rem;
+}
+
+body {
+  background-color: var(--bg-primary);
+  width: 100%;
+  min-height: 100vh;
+  font-family: var(--font-Montserrat);
+}
+
+.btn {
+  display: inline-block;
+  background-color: var(--bg-secondary);
+  color: #fff;
+  padding: var(--padding-s) var(--padding-m);
+  border-radius: 1rem;
+  font-size: var(--font-size-bm);
+  font-weight: 600;
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+
+  @media screen and (width > 1020px) {
+    font-size: var(--font-size-xm);
+    padding: var(--padding-m) var(--padding-l);
+  }
+}
+
+.btn:hover {
+  background-color: #d95b0f;
+  transform: scale(1.25);
+}
