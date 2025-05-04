@@ -1,0 +1,43 @@
+.ilustrations {
+  width: 90%;
+  margin: var(--margin-xl) auto;
+
+  h2 {
+    font-size: var(--font-size-l);
+    font-weight: 700;
+    text-align: center;
+  }
+
+  .ilustrations__cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: var(--gap-m);
+    padding-top: var(--padding-xl);
+
+    .ilustration__cards-card {
+      flex: 1 1 15rem;
+      max-width: 70vw;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: var(--gap-m);
+      text-align: center;
+
+      img {
+        width: 7rem;
+        height: auto;
+      }
+      h3 {
+        font-size: var(--font-size-m);
+        font-weight: 600;
+      }
+      p {
+        font-size: var(--font-size-b);
+        font-weight: 400;
+      }
+    }
+  }
+}

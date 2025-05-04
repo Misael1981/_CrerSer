@@ -13,8 +13,13 @@
     <!-- ===== CSS ===== -->
     <link rel="stylesheet" href="./assets/css/reset.css" />
     <link rel="stylesheet" href="style.css" />
+    <!-- Link Swiper's CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
     <!-- ===== Js ===== -->
-    <script src="./script.js" defer></script>
+    <script src="./script.js" type="module" defer></script>
     <title>Projeto CrerSer</title>
   </head>
   <body>
@@ -43,14 +48,19 @@
       </nav>
     </header>
     <main>
+      <!-- ======= Hero ====== -->
       <section class="hero">
         <div class="hero-content">
           <div>
             <h1>
               Histórias que conectam os princípios morais daquilo que
-              <strong>Deus</strong> nos ensina.
+              <strong>Deus</strong> nos ensina.(Seria ideal aumentar um pouco
+              mais o título)
             </h1>
-            <p>Todos os dias no seu Whastapp</p>
+            <p>
+              Todos os dias no seu Whastapp(E também um pouco mais o parágrafo).
+              O vídeo também deve ser num foprmato horizontal
+            </p>
           </div>
           <a href="#" class="btn">Quero começar agora</a>
         </div>
@@ -61,6 +71,94 @@
           />
         </div>
       </section>
+      <!-- ====== Ilustrations ====== -->
+      <section class="ilustrations">
+        <h2>Ilustrações</h2>
+        <div class="ilustrations__cards">
+          <div class="ilustration__cards-card">
+            <img src="./assets/img/icons/icone-01.png" alt="icone" />
+            <h3>Lorem ipsum dolor</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Perferendis tempora harum facilis tempore reiciendis quidem nisi,
+              impedit quam magni neque!
+            </p>
+          </div>
+          <div class="ilustration__cards-card">
+            <img src="./assets/img/icons/icone-02.png" alt="icone" />
+            <h3>Lorem ipsum dolor</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Perferendis tempora harum facilis tempore reiciendis quidem nisi,
+              impedit quam magni neque!
+            </p>
+          </div>
+          <div class="ilustration__cards-card">
+            <img src="./assets/img/icons/icone-03.png" alt="icone" />
+            <h3>Lorem ipsum dolor</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Perferendis tempora harum facilis tempore reiciendis quidem nisi,
+              impedit quam magni neque!
+            </p>
+          </div>
+          <div class="ilustration__cards-card">
+            <img src="./assets/img/icons/icone-04.png" alt="icone" />
+            <h3>Lorem ipsum dolor</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Perferendis tempora harum facilis tempore reiciendis quidem nisi,
+              impedit quam magni neque!
+            </p>
+          </div>
+        </div>
+      </section>
+      <!-- ===== Carrousel ====== -->
+      <section class="ourStories">
+        <h2>Nossas histórias</h2>
+        <div class="swiper ourStories__cards">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div class="card-image">
+                <img src="./assets/img/carrossel-01.jpg" alt="" />
+              </div>
+              <h3>Lorem, ipsum dolor.</h3>
+              <a href="#" class="btn">Saiba mais</a>
+            </div>
+            <div class="swiper-slide">
+              <div class="card-image">
+                <img src="./assets/img/carrossel-02.jpg" alt="" />
+              </div>
+              <h3>Lorem, ipsum dolor.</h3>
+              <a href="#" class="btn">Saiba mais</a>
+            </div>
+            <div class="swiper-slide">
+              <div class="card-image">
+                <img src="./assets/img/carrossel-03.jpg" alt="" />
+              </div>
+              <h3>Lorem, ipsum dolor.</h3>
+              <a href="#" class="btn">Saiba mais</a>
+            </div>
+            <div class="swiper-slide">
+              <div class="card-image">
+                <img src="./assets/img/carrossel-04.jpg" alt="" />
+              </div>
+              <h3>Lorem, ipsum dolor.</h3>
+              <a href="#" class="btn">Saiba mais</a>
+            </div>
+            <div class="swiper-slide">
+              <div class="card-image">
+                <img src="./assets/img/carrossel-05.jpg" alt="" />
+              </div>
+              <h3>Lorem, ipsum dolor.</h3>
+              <a href="#" class="btn">Saiba mais</a>
+            </div>
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </section>
     </main>
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
   </body>
 </html>

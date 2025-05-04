@@ -1,3 +1,5 @@
+import { ourStories } from "./assets/js/ourStories.js";
+
 const btnMenuhamburguer = document.getElementById("menuHamburguer");
 const navMenu = document.querySelector(".nav-list");
 const linksMenu = document.querySelectorAll(".list-item a");
@@ -13,3 +15,5 @@ linksMenu.forEach((link) => {
     btnMenuhamburguer.classList.remove("active-menu");
   });
 });
+
+ourStories();
