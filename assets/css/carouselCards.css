@@ -26,6 +26,7 @@
         align-items: center;
         background-color: var(--bg-secondary);
         border-radius: 1rem;
+        box-shadow: 0 8px 12px rgba(0, 0, 0, 0.15);
 
         .card-image {
           width: 90%;

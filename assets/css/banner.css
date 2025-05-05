@@ -1,0 +1,33 @@
+.banner {
+  width: 100%;
+  height: 40vh;
+  background-image: url("../img/fundo-Jesus.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  .banner__content {
+    max-width: 60vw;
+    margin: 0 auto;
+
+    h4 {
+      font-size: var(--font-size-l);
+      font-weight: 700;
+      color: #a0209b;
+      font-family: var(--font-Poppins);
+    }
+    p {
+      display: block;
+      margin: var(--margin-xl) 0;
+      font-size: var(--font-size-m);
+      font-weight: 700;
+      color: #a0209b;
+      font-family: var(--font-Poppins);
+    }
+  }
+}
