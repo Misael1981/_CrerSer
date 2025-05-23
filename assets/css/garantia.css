@@ -1,0 +1,78 @@
+.garantia {
+  background: linear-gradient(to right, #f8049c, #ff387c);
+  padding: 60px 20px;
+  text-align: center;
+  color: white;
+}
+
+.selo-garantia {
+  max-width: 120px;
+  margin-bottom: 20px;
+}
+
+.suporte {
+  background-color: #f04b4c;
+  padding: 50px 20px;
+  text-align: center;
+  color: white;
+}
+
+.suporte h2 {
+  margin-bottom: 10px;
+}
+
+.suporte p {
+  margin: 5px 0;
+}
+
+.btn-contato {
+  background-color: #2e3d49;
+  padding: 12px 30px;
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+  display: inline-block;
+  margin-top: 20px;
+  font-weight: bold;
+}
+
+.rodape {
+  background-color: #2c2c2c;
+  color: #fff;
+  padding: 40px 20px;
+  font-size: 14px;
+}
+
+.rodape-container {
+  max-width: 1100px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.rodape .info {
+  line-height: 1.6;
+}
+
+.rodape .info a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.rodape .social a {
+  font-size: 24px;
+  color: white;
+  text-decoration: none;
+}
+
+/* Fonte do ícone do Instagram: Font Awesome */
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css');
+
+.icon-instagram::before {
+  content: "\f16d"; /* Código FontAwesome do Instagram */
+  font-family: "Font Awesome 6 Free";
+  font-weight: 900;
+}
