@@ -1,0 +1,56 @@
+.section-oferta {
+  background-color: #fff;
+  padding: 40px 20px;
+  font-family: Arial, sans-serif;
+}
+
+.oferta-container {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 30px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.oferta-imagem img {
+  width: 100%;
+  max-width: 400px;
+  border-radius: 8px;
+}
+
+.oferta-conteudo {
+  max-width: 700px;
+  font-size: 18px; /* Aumenta o tamanho base */
+}
+
+.icone {
+  font-size: 1.4em;
+  margin-right: 8px;
+}
+
+.oferta-conteudo h2 {
+  color: #333;
+  font-size: 26px;
+  margin-top: 20px;
+}
+
+.oferta-conteudo h3 {
+  color: #333;
+  font-size: 22px;
+  margin-top: 20px;
+}
+
+.oferta-conteudo p {
+  color: #555;
+  font-size: 18px;
+  line-height: 1.8;
+  margin: 10px 0;
+}
+
+.aviso {
+  margin-top: 20px;
+  font-weight: bold;
+  color: #c00;
+  font-size: 18px;
+}
