@@ -1,0 +1,43 @@
+.section-depoimento {
+  background-color: #ffffff;
+  padding: 60px 20px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.container-depoimento {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40px;
+}
+
+.texto-depoimento {
+  flex: 1 1 45%;
+  color: #333;
+}
+
+.texto-depoimento h2 {
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.texto-depoimento p {
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 15px;
+}
+
+.imagem-depoimento {
+  flex: 1 1 45%;
+  text-align: center;
+}
+
+.imagem-depoimento img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
