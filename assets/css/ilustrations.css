@@ -1,11 +1,16 @@
 .ilustrations {
-  width: 90%;
+  width: 100%;
   margin: var(--margin-xl) auto;
+  background-color: var(--bg-prumary);
+  height: auto;
+  padding-top: 3rem;
+  padding-bottom: 1.5rem;
 
   h2 {
     font-size: var(--font-size-l);
     font-weight: 700;
     text-align: center;
+    color: var(--purple-accent);
   }
 
   .ilustrations__cards {
@@ -25,6 +30,7 @@
       align-items: center;
       gap: var(--gap-m);
       text-align: center;
+      
 
       img {
         width: 7rem;

@@ -1,18 +1,21 @@
 .ourStories {
   width: 90%;
   margin: var(--margin-xl) auto;
+  background-color: var(--bg-secondary);
 
   h2 {
     font-size: var(--font-size-l);
     font-weight: 700;
     text-align: center;
     padding: var(--padding-xxl) 0;
+    color: var(--purple-accent);
   }
 
   .ourStories__cards {
     width: 100%;
     height: auto;
     margin: 0 auto;
+    
 
     .swiper-wrapper {
       width: 100%;
@@ -27,6 +30,8 @@
         background-color: var(--bg-secondary);
         border-radius: 1rem;
         box-shadow: 0 8px 12px rgba(0, 0, 0, 0.15);
+        background-color: var(--peach-section);
+        padding-top: 1.5rem;
 
         .card-image {
           width: 90%;
@@ -47,7 +52,7 @@
           padding: var(--padding-m) 0;
         }
         .btn {
-          background-color: #a0209b;
+          background-color: var(--blue-button);
         }
       }
     }

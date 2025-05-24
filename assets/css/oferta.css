@@ -1,5 +1,5 @@
 .section-oferta {
-  background-color: #fff;
+  background-color: var(--bg-secondary);
   padding: 40px 20px;
   font-family: Arial, sans-serif;
 }
@@ -21,7 +21,7 @@
 
 .oferta-conteudo {
   max-width: 700px;
-  font-size: 18px; /* Aumenta o tamanho base */
+  font-size: 18px;
 }
 
 .icone {
@@ -30,19 +30,19 @@
 }
 
 .oferta-conteudo h2 {
-  color: #333;
+  color: var(--color-primary);
   font-size: 26px;
   margin-top: 20px;
 }
 
 .oferta-conteudo h3 {
-  color: #333;
+  color: var(--color-primary);
   font-size: 22px;
   margin-top: 20px;
 }
 
 .oferta-conteudo p {
-  color: #555;
+  color: var(--color-primary);
   font-size: 18px;
   line-height: 1.8;
   margin: 10px 0;

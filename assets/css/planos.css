@@ -1,6 +1,6 @@
 .secao-planos {
-  background-color: #8c00ff;
-  color: #fff;
+  background-color: var(--purple-accent);
+  color: var(--peach-section);
   padding: 40px 20px;
   font-family: Arial, sans-serif;
   text-align: center;
@@ -9,6 +9,7 @@
 .secao-planos h1 {
   font-size: 2rem;
   margin-bottom: 20px;
+  color: var(--bg-prumary);
 }
 
 .secao-planos p {
@@ -16,10 +17,11 @@
   max-width: 800px;
   margin: 0 auto 10px;
   line-height: 1.6;
+  color: var(--bg-prumary);
 }
 
 .secao-planos .destaque {
-  color: #ffe600;
+  color: var(--green-icon);
   font-weight: bold;
 }
 
@@ -34,10 +36,11 @@
   justify-content: center;
   gap: 30px;
   margin-top: 40px;
+  color: #000;
 }
 
 .plano {
-  background-color: #9b3cff;
+  background-color: var(--peach-section);
   border-radius: 12px;
   padding: 25px;
   width: 300px;
@@ -45,8 +48,13 @@
   text-align: left;
 }
 
+.plano .btn{
+  color: #ba7afa;
+}
+
 .plano h2 {
   text-align: center;
+  color: var(--purple-accent);
 }
 
 .plano .preco {
@@ -58,7 +66,7 @@
 .plano .riscado {
   text-decoration: line-through;
   font-size: 0.9rem;
-  color: #ddd;
+  color: var(--purple-accent);
 }
 
 .plano ul {
@@ -68,12 +76,16 @@
   line-height: 1.6;
 }
 
+.caixa-planos p{
+  color: var(--purple-accent);
+}
+
 .plano button {
   display: block;
   width: 100%;
   margin-top: 10px;
   padding: 12px;
-  background-color: #ff00c8;
+  background-color: var(--blue-button);
   color: white;
   font-weight: bold;
   border: none;
@@ -83,12 +95,13 @@
   transition: background 0.3s ease;
 }
 
-.plano button:hover {
-  background-color: #e600ac;
+.plano .btn:hover {
+  background-color: var(--purple-accent);
+  color: #fff;
 }
 
 .destaque-plano {
-  border: 2px solid #ffe600;
+  border: 2px solid #ba7afa;
 }
 
 @media (max-width: 700px) {

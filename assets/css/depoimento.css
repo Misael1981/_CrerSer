@@ -1,5 +1,5 @@
 .section-depoimento {
-  background-color: #ffffff;
+  background-color: var(--bg-prumary);
   padding: 60px 20px;
   font-family: 'Montserrat', sans-serif;
 }
@@ -16,13 +16,13 @@
 
 .texto-depoimento {
   flex: 1 1 45%;
-  color: #333;
 }
 
 .texto-depoimento h2 {
   font-size: 28px;
   font-weight: 700;
   margin-bottom: 20px;
+  color: var(--purple-accent);
 }
 
 .texto-depoimento p {

@@ -1,8 +1,8 @@
 .garantia {
-  background: linear-gradient(to right, #f8049c, #ff387c);
+  background: var(--peach-section);
   padding: 60px 20px;
   text-align: center;
-  color: white;
+  color: #000;
 }
 
 .selo-garantia {
@@ -11,10 +11,10 @@
 }
 
 .suporte {
-  background-color: #f04b4c;
+  background-color: var(#040F8F);
   padding: 50px 20px;
   text-align: center;
-  color: white;
+  color: #000;
 }
 
 .suporte h2 {
@@ -26,9 +26,9 @@
 }
 
 .btn-contato {
-  background-color: #2e3d49;
+  background-color: var(--blue-button);
   padding: 12px 30px;
-  color: white;
+  color: #fff;
   text-decoration: none;
   border-radius: 8px;
   display: inline-block;
@@ -36,8 +36,14 @@
   font-weight: bold;
 }
 
+.btn-contato:hover{
+  
+  
+  
+}
+
 .rodape {
-  background-color: #2c2c2c;
+  background-color: var(--color-primary);
   color: #fff;
   padding: 40px 20px;
   font-size: 14px;
@@ -57,14 +63,14 @@
 }
 
 .rodape .info a {
-  color: white;
+  color: #fff;
   text-decoration: none;
   font-weight: bold;
 }
 
 .rodape .social a {
   font-size: 24px;
-  color: white;
+  color: #fff;
   text-decoration: none;
 }
 

@@ -1,7 +1,7 @@
 .hero {
   width: 100%;
   height: auto;
-  background-color: var(--bg-third);
+  background: linear-gradient(135deg, #8E32DF, #BA7AFA);
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -28,7 +28,7 @@
 
     h1 {
       font-family: var(--font-Poppins);
-      color: #031f03;
+      color: var(--bg-prumary);
       font-size: var(--font-size-xm);
       font-weight: 700;
       text-align: center;
@@ -40,7 +40,7 @@
     }
     p {
       font-family: var(--font-Poppins);
-      color: #031f03;
+      color: var(--bg-prumary);
       font-size: var(--font-size-bm);
       text-align: center;
 

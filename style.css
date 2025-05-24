@@ -9,11 +9,18 @@
 @import url("./assets/css/depoimento.css");
 
 :root {
-  /* Cores */
-  --bg-primary: #fefef3;
-  --bg-secondary: #ea6c16;
+  /* Cores base */
+  --bg-prumary: #fefef3;
+  --bg-secondary: #faf0d1;
   --bg-third: #fff9e6;
-  --color-prumary: #031f03;
+  --color-primary: #031f03;
+
+  /* Paleta adicional */
+  --purple-accent: #8e32df; /* Destaques e títulos */
+  --blue-button: #faf0d1;       /* Botões e links */
+  --green-icon: #8ddd80;        /* Ícones de sucesso */
+  /*--beige-bg: #e9caa8;*/          /* Fundo principal */
+  --peach-section: #fff;     /* Seções de destaque */
 
   /* Tipografia */
   --font-Montserrat: "Montserrat", sans-serif;
@@ -64,7 +71,7 @@
 }
 
 body {
-  background-color: var(--bg-primary);
+  background-color: var(--bg-secondary);
   width: 100%;
   min-height: 100vh;
   font-family: var(--font-Montserrat);
@@ -74,8 +81,8 @@ body {
 
 .btn {
   display: inline-block;
-  background-color: var(--bg-secondary);
-  color: #fff;
+  background-color: var(--blue-button);
+  color: #ba7afa;
   padding: var(--padding-s) var(--padding-m);
   border-radius: 1rem;
   font-size: var(--font-size-bm);
@@ -90,6 +97,7 @@ body {
 }
 
 .btn:hover {
-  background-color: #d95b0f;
-  transform: scale(1.25);
+  background-color: #923bf4;
+  transform: scale(1);
+  color: #fff;
 }
