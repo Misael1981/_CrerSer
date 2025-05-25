@@ -26,9 +26,9 @@
 }
 
 .btn-contato {
-  background-color: var(--blue-button);
+  background-color: #000;
   padding: 12px 30px;
-  color: #fff;
+  color: var(--purple-accent);
   text-decoration: none;
   border-radius: 8px;
   display: inline-block;
@@ -37,8 +37,8 @@
 }
 
 .btn-contato:hover{
-  
-  
+   color: #fff;
+  background-color: #ba7afa;
   
 }
 
